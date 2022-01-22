@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.center-image{
+#center-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,6 +39,18 @@ h1.center.center.color{
     color: rgb(0, 162, 255);
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+li.center.color
+{
+    text-align: left;
+    color: rgb(255, 251, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px -3px 4px rgb(255, 0, 0);
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: underline wavy blue;
 }
 
 ol li{
