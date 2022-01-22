@@ -1,0 +1,129 @@
+*{
+    background-color: black;
+}
+
+.center{
+    text-align: center;
+}
+
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px rgba(255, 0, 0, 0.596);
+}
+
+.center.color{
+    color: rgb(9, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 9px 8px rgb(255, 0, 0);
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+h1.center.center.color{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px 10px 10px rgba(255, 0, 0, 0.678);
+    text-transform: uppercase;
+    text-decoration-color: white;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.text{
+    color: rgb(0, 162, 255);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol li{
+    color: rgba(255, 0, 0, 0.781);
+    font-size: 40px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: red;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 100;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(251, 255, 0);
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: rgb(255, 251, 0);
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 15px;
+    border: solid rgb(255, 251, 0);
+    border-width: 0 3px 3px 0;
+    border-radius: 5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .click{
+    text-align: center;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
